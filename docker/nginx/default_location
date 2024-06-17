@@ -1,0 +1,7 @@
+location /static/ {
+    alias /crm_/static/;
+}
+
+location /media/ {
+    alias /crm_/media/;
+}
